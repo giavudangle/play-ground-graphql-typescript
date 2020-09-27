@@ -45,6 +45,11 @@ input updatePetInput{
     name: String!
 }
 
+input createTaskInput{
+    id:Int!,
+    task_name:String,
+}
+
 type Query{
     pets:[Pet]
     users:[User]
